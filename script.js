@@ -31,7 +31,8 @@ function swiperAnimation() {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: "auto",
     centeredSlides: true,
-    spaceBetween: 60
+    spaceBetween: 60,
+    initialSlide: 1,
   });
 }
 
